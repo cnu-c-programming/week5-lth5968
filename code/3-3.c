@@ -6,8 +6,6 @@ int main() {
     
     const int * const p = &val;
 
-    *p = 10;
-    p = &other;
 
     printf("%d\n", *p);
 
